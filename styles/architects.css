@@ -231,6 +231,9 @@ main {
         text-align: center;
         margin-bottom: 20px;
     }
+    .sponspors-contant p{
+        padding: 0px 20px;
+    }
 }
 
 /* medium device */
