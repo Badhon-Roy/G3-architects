@@ -145,6 +145,10 @@ main{
     .features-section{
         flex-direction: column;
     }
+    .features-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .features-images{
         grid-template-columns: 1fr;
     }
