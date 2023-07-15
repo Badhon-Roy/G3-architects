@@ -146,7 +146,7 @@ main{
         flex-direction: column;
     }
     .features-images{
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -160,8 +160,5 @@ main{
     }
     .features-section{
         flex-direction: column;
-    }
-    .features-images{
-        grid-template-columns: repeat(1 , 1fr);
     }
 }
