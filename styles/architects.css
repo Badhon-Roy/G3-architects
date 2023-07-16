@@ -374,12 +374,6 @@ footer {
         margin-left: 20px;
         border: none;
     }
-    .about-card-section{
-        display: flex;
-        justify-content: space-around;
-        gap: 10px;
-        margin: 0px 25px;
-    }
     .about-img img{
         width: 100%;
         margin: 0 30px;
