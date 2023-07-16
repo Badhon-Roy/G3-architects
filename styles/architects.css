@@ -138,48 +138,119 @@ main {
     margin: 15px 0px;
 }
 
+/* About-container stylex */
+.About-container {
+    margin: 130px 0px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+
+}
+
+.about-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.about-contant .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0px;
+    padding: 30px;
+}
+
+.about-contant .card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+.about-img img{
+    margin-left: 100px;
+}
+.ten-years-experience {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+.ten-years-experience h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.ten-years-experience p{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
 /* facts section style */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
+
 .facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
 }
-.facts-card-container .card .card-stats{
+
+.facts-card-container .card .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin: 10px 0px;
 }
-.facts-card-container .card .card-title{
+
+.facts-card-container .card .card-title {
     font-weight: 600;
     color: rgb(180, 174, 174);
     font-size: 1.25rem;
 }
-.facts-contant p{
+
+.facts-contant p {
     margin: 20px 0px;
 }
+
 /* sponspors-container style */
-.sponspors-contant{
+.sponspors-contant {
     text-align: center;
 }
-.sponspors-contant p{
+
+.sponspors-contant p {
     margin: 20px 0px 50px 0px;
 }
-.sponscer{
+
+.sponscer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
-.sponscer img{
+
+.sponscer img {
     width: 165px;
 }
 
+/* footer styles */
+footer {
+    max-width: 1440px;
+    margin: 50px auto 0px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 35px;
+}
 
 
 
@@ -205,7 +276,9 @@ main {
     }
 
     nav,
-    .sponscer
+    .sponscer ,
+    .About-container,
+    .about-contant
     {
         flex-direction: column;
     }
@@ -222,18 +295,52 @@ main {
     .features-images {
         grid-template-columns: 1fr;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         flex-direction: column;
         padding: 0px 30px;
         gap: 20px;
     }
-    .facts-contant{
+
+    .facts-contant {
         text-align: center;
         margin-bottom: 20px;
     }
-    .sponspors-contant p{
+
+    .sponspors-contant p {
         padding: 0px 20px;
     }
+    .about-img img{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    .ten-years-experience{
+        position: static;
+        width: 150px;
+        padding: 20px;
+        margin: auto;
+        position: relative;
+        top: -50px;
+        border: 3px solid #fff;
+    }
+    .ten-years-experience h2{
+        font-size: 2.5rem;
+    }
+    .ten-years-experience p{
+        font-size: 1rem;
+    }
+    .about-title {
+        font-size: 2rem;
+        border-left: 3px solid #FF900E;
+    }
+    .About-container{
+        margin: 15px 35px;
+        gap: 20px;
+    }
+    .about-contant .card{
+    }
+    
 }
 
 /* medium device */
@@ -249,7 +356,8 @@ main {
     .features-section {
         flex-direction: column;
     }
-    .sponscer{
+
+    .sponscer {
         flex-wrap: wrap;
         padding: 0px 100px;
         justify-content: center;
